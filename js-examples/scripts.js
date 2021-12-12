@@ -7,3 +7,4 @@ let text2 = "reza";
 let text3 = text1 + " " + text2;
 document.getElementById("a").innerHTML=text3;
 
+//test
