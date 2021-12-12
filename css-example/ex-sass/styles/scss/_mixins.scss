@@ -1,0 +1,28 @@
+@mixin textStlye($color: #fff, $bcolor: blue, $rad: 5px, $padd: 10px) {
+  color: $color;
+  background-color: $bcolor;
+  border-radius: $rad;
+  padding: $padd;
+}
+
+@mixin fontSize {
+  font-size: 5rem;
+}
+
+@mixin hoverEffect {
+  &:hover {
+    background-color: aquamarine;
+  }
+}
+
+@mixin query($max) {
+  @if ($max==400) {
+    @media (max-width: 400px) {
+      @content;
+    } 
+  }@else if($max==380) {
+    @media (max-width: 380px) {
+      @content;
+    }
+  }
+}

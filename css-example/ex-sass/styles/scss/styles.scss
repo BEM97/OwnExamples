@@ -1,0 +1,73 @@
+@import "variables", "mixins";
+
+// h1 {
+//   color: $primaryColor;
+// }
+
+// .container {
+//   background-color: $primaryColor;
+
+//   ul {
+//     list-style-type: none;
+//   }
+//   a {
+//     text-decoration: none;
+//     color: white;
+//   }
+// }
+
+h1 {
+  @include textStlye;
+  @include fontSize;
+  @include hoverEffect;
+  @include query(400) {
+    background-color: black;
+  }
+}
+
+h2 {
+  @include textStlye(black, $primaryColor, 25px, 40px);
+  @include query(380){
+      background-color:red;
+  }
+}
+
+.A{
+    color:saddlebrown;
+    font-size: 1.5rem;
+    background-color: lightcoral;
+    display: inline-block;
+}
+
+.B{
+    @extend .A;
+    
+}
+
+
+// @for $item from 1 through 5{
+//     .c-#{$item}{
+//         background-color:red;
+//         height: 20px * $item;
+//     }
+// }
+
+
+// $i:5;
+// @while ($i > 0) {
+//     .c-#{$i}{
+//                 background-color:red;
+//                 height: 20px * $i;
+//             }
+//     $i: $i  - 1;
+// }
+
+
+
+@each $element,$color in (c-1:red,c-2:blue,c-3:green){
+
+.#{$element}{
+    color:$color;
+}
+    
+}

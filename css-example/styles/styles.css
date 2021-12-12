@@ -1,0 +1,197 @@
+.mmad {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  color: red;
+  background-color: dodgerblue;
+  border: 2px solid tomato;
+  text-transform: lowercase;
+  letter-spacing: 5px;
+  /* line-height: 1.8; */
+  text-shadow: 2px 2px 5px orange;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 10vw;
+}
+/* 
+a:link {
+  color: red;
+  text-decoration: solid;
+  background-color: yellow;
+} */
+
+/* a:visited {
+  color: green;
+} */
+
+a.one:link,
+a.one:visited {
+  background-color: aqua;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.one:hover {
+  color: blueviolet;
+}
+
+a.one:active {
+  color: cyan;
+}
+
+a.two:hover {
+  color: red;
+  text-decoration: none;
+  font-size: 150%;
+  cursor: hand;
+}
+
+ul.a {
+  list-style-type: square;
+}
+
+li.aa {
+  /* display: none; */
+  visibility: hidden;
+}
+
+ol.b {
+  list-style-type: lower-alpha;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-bottom: 1px solid #add;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  height: 60px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+td {
+  text-align: center;
+  vertical-align: bottom;
+  height: 40px;
+  padding: 10px;
+}
+
+tr:hover {
+  background-color: yellow;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+div.static {
+  position: static;
+  border: 3px solid #73ad21;
+}
+
+div.relative {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73ad21;
+}
+
+div.fiexd {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73ad21;
+}
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73ad21;
+}
+
+div.sticky {
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4caf50;
+}
+
+.container {
+  position: relative;
+}
+.black-box {
+  position: relative;
+  z-index: 1;
+  border: 2px solid black;
+  height: 100px;
+  margin: 30px;
+}
+
+.gray-box {
+  position: absolute;
+  z-index: 3;
+  background: lightgray;
+  height: 60px;
+  width: 70%;
+  left: 50px;
+  top: 50px;
+}
+
+.green-box {
+  position: absolute;
+  z-index: 2; /* green box will be above black box */
+  background: lightgreen;
+  width: 35%;
+  left: 270px;
+  top: -15px;
+  height: 100px;
+}
+
+.overflow {
+  height: 100px;
+  width: 580px;
+  overflow: auto;
+}
+
+.A {
+  float: left;
+  padding: 15px;
+}
+
+.div1 {
+  background: red;
+}
+
+.div2 {
+  background: yellow;
+}
+
+.div3 {
+  background: green;
+}
+
+.imhere {
+  display: none;
+  background-color: yellow;
+  padding: 25px;
+}
+
+.hme:hover p {
+  display: block;
+}
