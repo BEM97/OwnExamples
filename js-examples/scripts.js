@@ -749,11 +749,35 @@ function myFunction11(){
 
    
 
+     
 
-    // fetch('https://api.freerealapi.com/blogs')
+    // fetch('https://api.freerealapi.com/comments')
     // .then(res => res.json())
-  
-    // // .then(json => console.log(json))
+    // .then(json => console.log(json))
+
+ 
+
+//    ( async function getdata(){
+//         let myObj = await fetch('https://api.freerealapi.com/comments');
+//         let myText = await myObj.text();
+//         // let z = JSON.parse(myText);
+//         document.getElementById("c").innerHTML=myText;
+//     })();
+
+   
+
+
+
+
+
+
+
+
+
+   
+
+    // .then(json =>document.getElementById("c").innerHTML="")
+    
     // .then(json => document.getElementById("c").innerHTML=JSON.stringify(json));
 
 
@@ -796,6 +820,7 @@ function loadDoc(){
     xhttp.open("GET","https://33ed6528-6a3f-4e2c-b95a-a38f65fa379e.mock.pstmn.io/b.txt",true); 
 
     // in url a.txt = http://127.0.0.1:5500/js-examples/a.txt =  http://localhost:5500/js-examples/a.txt
+  
     xhttp.send();
 }
 //https://fc7a4b2b-3b09-4962-8e59-234aa9479f01.mock.pstmn.io
