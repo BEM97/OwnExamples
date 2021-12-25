@@ -1,0 +1,50 @@
+h1 {
+  color: #fff;
+  background-color: blue;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 5rem;
+}
+
+h1:hover {
+  background-color: aquamarine;
+}
+
+@media (max-width: 400px) {
+  h1 {
+    background-color: black;
+  }
+}
+
+h2 {
+  color: black;
+  background-color: #256;
+  border-radius: 25px;
+  padding: 40px;
+}
+
+@media (max-width: 380px) {
+  h2 {
+    background-color: red;
+  }
+}
+
+.A, .B {
+  color: saddlebrown;
+  font-size: 1.5rem;
+  background-color: lightcoral;
+  display: inline-block;
+}
+
+.c-1 {
+  color: red;
+}
+
+.c-2 {
+  color: blue;
+}
+
+.c-3 {
+  color: green;
+}
+/*# sourceMappingURL=styles.css.map */
