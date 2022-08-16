@@ -20,8 +20,8 @@ const about ={
 
 const projects = [
   {
-    name:'Project1',
-    description: 'projects 1 is good',
+    name:'WeatherApp',
+    description: 'simple app forcast weather',
     stack:['React' ,'javascript'],
     sourceCode:'https://github.com',
     livePreview:'https://github.com',
