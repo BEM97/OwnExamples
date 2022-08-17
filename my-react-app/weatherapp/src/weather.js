@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import featchweather from "./weatherapi";
 import "./weatherCss.css";
 
-const Weather  = () => {
+const Weather = () => {
   const [query, setQuery] = useState("");
   const [weather, setWeather] = useState({ location: "", current: "" });
 

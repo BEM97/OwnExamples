@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
-import App from "./App";
-import Weather from "./weather"
-import Calculator from "./Test1";
-import TodoApp from "./todoApp";
-import Main from "./main";
-import Blog from "./blog/Blog";
+// import App from "./App";
+// import Weather from "./weather"
+// import Calculator from "./Test1";
+// import TodoApp from "./todoApp";
+// import Main from "./main";
+// import Blog from "./blog/Blog";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Mmad from "./mmad";

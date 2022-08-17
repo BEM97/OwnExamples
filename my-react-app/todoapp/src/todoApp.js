@@ -1,7 +1,7 @@
 import React, { useState, useEffect }from "react";
 import "./todoCss.css";
 import { Button, Card, Form } from 'react-bootstrap';
-
+import 'bootstrap/dist/css/bootstrap.css';
 
 function Todo({todo, index, markTodo, removeTodo }){
     return(
