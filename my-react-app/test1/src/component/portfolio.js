@@ -6,7 +6,7 @@ const header ={
 
 const about ={
   name:'mohammadreza esmailian',
-  role:'junior frontend developer',
+  role:'junior frontend developer :)',
   description:'i am new in FrontEnad and so happy learn more with  you :)',
   resume:'https://Linkedin.com',
   social: {
